@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  loan:
+    build: ./loan/
+    ports:
+      - "9000:8080"
+  interest: 
+    build: ./interest/
+    ports:
+      - "9010:8080"
